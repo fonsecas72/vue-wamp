@@ -3,7 +3,9 @@
   "version": "1.6.1",
   "description": "AutobahnJS wrapper library fo Vue.js",
   "private": false,
-  "main": "lib/vue-wamp.js",
+
+
+
   "scripts": {
     "crossbar": "cd example && crossbar start",
     "example": "cross-env NODE_ENV=development webpack-dev-server",
@@ -31,8 +33,10 @@
   },
   "devDependencies": {
     "babel": "^6.23.0",
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
     "bootstrap": "^3.3.7",
     "bootstrap-loader": "^2.2.0",
     "bootstrap-sass": "^3.3.7",
