@@ -3,9 +3,7 @@
   "version": "1.6.1",
   "description": "AutobahnJS wrapper library fo Vue.js",
   "private": false,
-
-
-
+  "main": "lib/vue-wamp.js",
   "scripts": {
     "crossbar": "cd example && crossbar start",
     "example": "cross-env NODE_ENV=development webpack-dev-server",
